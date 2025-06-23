@@ -1,0 +1,18 @@
+# Archivos de clase
+*.class
+
+# Directorios de compilación
+/target/
+/build/
+
+# Logs
+*.log
+
+# Archivos de propiedades sensibles
+*.env
+application-*.properties
+
+# IDEs
+.vscode/
+.idea/
+*.iml

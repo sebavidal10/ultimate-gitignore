@@ -1,0 +1,21 @@
+# Basado en create-react-app
+
+# node_modules: dependencias
+node_modules/
+
+# Archivos de compilación
+build/
+
+# Variables de entorno
+.env
+.env.*.local
+
+# Coverage de tests
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+
+# Caché
+.cache/
