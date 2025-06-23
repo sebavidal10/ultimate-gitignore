@@ -1,8 +1,0 @@
-# Ignora archivos Docker temporales
-**/.dockerignore
-docker-compose.override.yml
-
-# Volúmenes y cachés
-tmp/
-*.pid
-*.log

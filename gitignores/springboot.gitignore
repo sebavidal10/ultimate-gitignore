@@ -1,18 +1,96 @@
-# Archivos de clase
+# === JAVA ===
 *.class
+*.jar
+*.war
+*.ear
 
-# Directorios de compilación
-/target/
-/build/
+# === BUILD SYSTEMS ===
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
 
-# Logs
-*.log
+# Gradle
+.gradle/
+build/
+!gradle-wrapper.jar
+gradle-app.setting
+gradle-app.iml
+*.hprof
 
-# Archivos de propiedades sensibles
-*.env
-application-*.properties
-
-# IDEs
-.vscode/
+# === IDEs ===
+# IntelliJ
 .idea/
 *.iml
+*.iws
+out/
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# VS Code
+.vscode/
+
+# NetBeans
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# === LOGS / TEMP FILES ===
+*.log
+logs/
+hs_err_pid*
+*.pid
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === ENV / PROPERTIES ===
+.env
+.env.*
+application.properties
+application.yml
+application-*.properties
+application-*.yml
+
+# === DOCKER / CI/CD ===
+docker-compose.override.yml
+*.envrc
+
+# === GIT FILES ===
+*.orig
+*.rej
+*.swp
+*~
+
+# === TESTS ===
+test-output/
+jacoco.exec
+
+# === LOMBOK ===
+*.lombok.log
+
+# === SONAR / CODE ANALYSIS ===
+.sonar/
+coverage-report/
+report.xml
+
+# === K8s / LOCAL CONFIGS ===
+.kube/
+*.local
+
+# === OS ===
+ehthumbs.db
+Icon?
+Desktop.ini

@@ -1,22 +1,70 @@
-# Archivos de Python compilados
+# === PYTHON CORE ===
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Entornos virtuales
-env/
-venv/
-
-# Archivos de configuración
+# === PIP / VENV ===
 *.env
-.env
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
 
-# Archivos de logs y caché
+# === LOGS / DEBUG ===
 *.log
-*.sqlite3
-.cache/
-.mypy_cache/
+*.tmp
 
-# IDEs
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === JUPYTER / NOTEBOOKS ===
+.ipynb_checkpoints
+*.ipynb
+
+# === TEST / COVERAGE ===
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+
+# === MYPI / PYLINT / BLACK ===
+.mypy_cache/
+.pyre/
+.pytype/
+.pylint.d/
+.cache/
+*.cover
+
+# === EDITORS ===
 .vscode/
 .idea/
+*.sublime*
+*.code-workspace
+
+# === DOCKER / CI/CD ===
+docker-compose.override.yml
+*.envrc
+
+# === SI USAS DJANGO ===
+
+db.sqlite3
+*.pot
+*.pyc
+*.pyo
+staticfiles/
+media/
+*.mo
+*.log
+*.pot
+*.db
+*.sqlite3
+migrations/

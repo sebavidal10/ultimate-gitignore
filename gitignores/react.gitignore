@@ -1,21 +1,83 @@
-# Basado en create-react-app
-
-# node_modules: dependencias
+# === NODE CORE ===
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
-# Archivos de compilación
-build/
-
-# Variables de entorno
+# === ENV FILES ===
 .env
-.env.*.local
+.env.*      # .env.local, .env.production, etc.
 
-# Coverage de tests
+# === BUILD / OUTPUT ===
+build/
+dist/
+out/
+.vite/
+.next/
+.temp/
+.cache/
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === TESTS ===
 coverage/
+*.lcov
+jest-html-reporters-*
+test-output/
 
-# IDEs
+# === BABEL / ESLINT / PRETTIER ===
+.eslintcache
+.prettiercache
+.cache/
+
+# === TYPESCRIPT ===
+*.tsbuildinfo
+
+# === VITE / WEBPACK ===
+.vite/
+.vscode/
+webpack-stats.json
+*.local
+
+# === EDITORS ===
 .vscode/
 .idea/
+*.sublime*
+*.code-workspace
 
-# Caché
-.cache/
+# === FIREBASE / VERCEL / NETLIFY ===
+.firebase/
+.firebaserc
+.vercel/
+.netlify/
+
+# === LOGS ===
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# === DOCKER / CI ===
+docker-compose.override.yml
+*.envrc
+
+# === STATIC FILES BUILD (suele crearse si subes a S3 o Netlify)
+static/
+*.html
+
+# === CUSTOM ===
+public/build/
+public/dist/
+*.bak
+*.orig
+
+# === STORYBOOK ===
+.storybook-out/
+out-storybook/

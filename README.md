@@ -9,13 +9,8 @@ Una colección curada de archivos `.gitignore` listos para copiar y pegar. Útil
 | Node.js          | [`node.gitignore`](gitignores/node.gitignore) |
 | React            | [`react.gitignore`](gitignores/react.gitignore) |
 | Python           | [`python.gitignore`](gitignores/python.gitignore) |
-| Java             | [`java.gitignore`](gitignores/java.gitignore) |
 | Spring Boot      | [`springboot.gitignore`](gitignores/springboot.gitignore) |
-| Docker           | [`docker.gitignore`](gitignores/docker.gitignore) |
-| Next.js          | [`nextjs.gitignore`](gitignores/nextjs.gitignore) |
 | Vue              | [`vue.gitignore`](gitignores/vue.gitignore) |
-
-> ¿Te gustaría contribuir con otro stack? ¡Pull requests bienvenidos!
 
 ---
 

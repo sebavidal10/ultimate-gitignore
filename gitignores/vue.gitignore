@@ -1,16 +1,74 @@
-# node_modules
+# === NODE ===
 node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
-# Build output
+# === BUILD OUTPUT ===
 dist/
+build/
+out/
+.vite/
+.temp/
+.cache/
 
-# Env variables
+# === ENV FILES ===
 .env
-.env.*.local
+.env.*      # .env.local, .env.production, etc.
 
-# IDEs
+# === OS FILES ===
+.DS_Store
+Thumbs.db
+
+# === TEST OUTPUT ===
+coverage/
+*.lcov
+test-output/
+jest-html-reporters-*
+
+# === EDITOR / IDE FILES ===
 .vscode/
 .idea/
+*.sublime*
+*.code-workspace
 
-# Logs
+# === TYPESCRIPT ===
+*.tsbuildinfo
+
+# === VUE / VITE / WEBPACK ===
+*.local
+vite.config.ts
+vite.config.js
+webpack-stats.json
+
+# === ESLINT / PRETTIER / BABEL ===
+.eslintcache
+.prettiercache
+babel.config.js
+
+# === FIREBASE / VERCEL / NETLIFY ===
+.firebase/
+.firebaserc
+.vercel/
+.netlify/
+
+# === LOGS / TEMP ===
 *.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# === STORYBOOK ===
+.storybook-out/
+out-storybook/
+
+# === CUSTOM ===
+public/build/
+public/dist/
+*.bak
+*.orig

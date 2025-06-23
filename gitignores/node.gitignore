@@ -1,23 +1,101 @@
-# node_modules: dependencias instaladas por npm/yarn
+# === NODE.JS CORE ===
 node_modules/
-
-# Logs
-*.log
 npm-debug.log*
 yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
 
-# Variables de entorno
+# === ENV FILES ===
 .env
-.env.*.local
+.env.*     # .env.development, .env.local, etc.
 
-# Coverage de tests
-coverage/
+# === DIST & BUILD ===
+dist/
+build/
+.out/
+.next/
+.cache/
 .nyc_output/
 
-# IDEs y herramientas de desarrollo
+# === COVERAGE ===
+coverage/
+*.lcov
+
+# === OS ===
+.DS_Store
+Thumbs.db
+
+# === LOGS & PID ===
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# === TESTS ===
+test-output/
+jest-html-reporters-*
+*.tsbuildinfo
+
+# === DATABASE FILES ===
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+
+# === TYPESCRIPT ===
+*.tsbuildinfo
+
+# === PM2 ===
+.pids/
+.pm2/
+
+# === VSCODE ===
 .vscode/
 .idea/
+*.sublime*
 
-# Caché
-.cache/
-dist/
+# === DOCKER ===
+docker-compose.override.yml
+
+# === PRISMA ===
+prisma/.env
+prisma/migrations/*/README.md
+
+# === NEXT.JS ===
+.next/
+.vercel/
+
+# === NUXT / VITE / OTHER FRONT-END ===
+.nuxt/
+.vite/
+*.local
+
+# === ESLINT / PRETTIER CACHE ===
+.eslintcache
+.prettiercache
+
+# === FIREBASE / GCP ===
+.firebase/
+.firebaserc
+
+# === AWS / CDK ===
+cdk.out/
+
+# === FUNCTIONS (ex: Firebase) ===
+functions/node_modules/
+functions/lib/
+
+# === TAILWIND / POSTCSS / SASS ===
+*.css.d.ts
+.postcss-cache/
+
+# === BUN / DENO / OTRAS ALTERNATIVAS ===
+.bun-install/
+
+# === LOCKS RAROS ===
+.pnp.*
